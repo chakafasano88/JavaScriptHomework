@@ -11,11 +11,12 @@ var myFavoriteDrink = 'soda';
 console.log('My favorite food is: ' + myFavoriteFood + '. My favorite drink is: ' + myFavoriteDrink);
 
 //2.) Code is processing 2 sets of arrays, and logging to the console the decided call back. In this case, guitars. Gretsch [0], Ibanez [1].
-var basses= ["Warick", "Fender"];
-var guitars= ["Gretsch", "Ibanez"];
-var instruments= [basses,guitars];
+var instruments = [
+  ["guitar","cello", "violin"],
+  ["flute", "trumpet", "trombone"]
+];
 
-console.log(guitars)
+console.log(instruments [0][1], instruments[0][2]);
 
 
 // 3.)This code is using "if else" to solve whether or not the variable titled 'number = 50' is greater than 100, or less than 100.  Whatever the outcome, an alert will notify the user.  The prompt informs the user
